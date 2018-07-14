@@ -16,4 +16,4 @@ Turn Andrew's Machine Learning Class assignment code from Matlab to Python (Jupy
 2. Better: most codes are in Jupyter Notebook and ready to present, with some complicated optimization functions in Matlab.
 3. Ideal: all things are presented in Jupyter Notebook, with optimization functions rewritten in Python
 
-test first commit to Github
+
