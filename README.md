@@ -1,9 +1,9 @@
 # NN
 
-## Objective 
+## Objective
 Turn Andrew's Machine Learning Class assignment code from Matlab to Python (Jupyter) to practice my Python and get used to use Github.
 
-## Time 
+## Time
 3 month (July to September 2018)
 
 ## Plan
@@ -15,3 +15,5 @@ Turn Andrew's Machine Learning Class assignment code from Matlab to Python (Jupy
 1. Basic: most codes are in Python, with some complicated optimization functions in Matlab.
 2. Better: most codes are in Jupyter Notebook and ready to present, with some complicated optimization functions in Matlab.
 3. Ideal: all things are presented in Jupyter Notebook, with optimization functions rewritten in Python
+
+test first commit to Github
