@@ -23,5 +23,3 @@ Turn Andrew's Machine Learning Class assignment code from Matlab to Python (Jupy
 
 ## Updated Requirements (8/16/2018)
 1. All things are written in Python and presented in Jupyter Notebook (utilize Python libraries)
-
-## Only one way!!! Work until you get there and then work harder! 
