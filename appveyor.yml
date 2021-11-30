@@ -5,7 +5,7 @@ init:
   - git config --global core.autocrlf true
 
 test_script:
-  - IF NOT "%APPVEYOR_SCHEDULED_BUILD%"=="True" (
+  - IF "%APPVEYOR_SCHEDULED_BUILD%"=="True" (
       echo "This is not a scheduled build!" &
       echo "Again, this is not scheduled!" &
       echo %APPVEYOR_SCHEDULED_BUILD%
