@@ -7,4 +7,6 @@ init:
 test_script:
   - IF NOT "%APPVEYOR_SCHEDULED_BUILD%"=="True" (
       echo "This is not a scheduled build!"
+    ) ELSE (
+      echo "This is a scheduled build!"
     )
