@@ -1,0 +1,12 @@
+build: false
+platform: x64
+
+init:
+  - git config --global core.autocrlf true
+
+test_script:
+  - ps: |
+      if ($true)
+      {
+        Write-Host "Success"
+      }
