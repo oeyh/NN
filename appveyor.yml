@@ -1,0 +1,18 @@
+build: false
+platform: x64
+
+init:
+  - git config --global core.autocrlf true
+
+test_script:
+  - IF "%APPVEYOR_SCHEDULED_BUILD%"=="True" (
+      echo "This is not a scheduled build!" &
+      echo "Again, this is not scheduled!" &
+      echo "%APPVEYOR_SCHEDULED_BUILD%"
+    ) ELSE (
+      echo "This is a scheduled build!" &
+      echo "%APPVEYOR_SCHEDULED_BUILD%" &
+      echo "%APPVEYOR%" &
+      echo "%CI%" &
+      echo "%APPVEYOR_REPO_TAG%"
+    )
